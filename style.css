@@ -14,7 +14,6 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* background: url('Assessment\ Media\ Package\ 1/logo2.png') no-repeat; */
     background-size: cover;
     background-position: center;
 }
@@ -242,10 +241,6 @@ label {
     }
 }
 
-
-
- /* ======================================================================================= */
-
  *{
     margin: 0;
     padding: 0;
@@ -261,12 +256,11 @@ body{
    
 }
 
-/* Background setup and images*/
+
 
 .header-text img{
   float: right;
-  /* width:400px;
-  height:500; */
+  
 }
 .container .header-text{
   padding-bottom: 800px;
@@ -299,7 +293,7 @@ body{
 }
 
 .image-container {
-    margin-left: 300px; /* Adjust the margin as needed */
+    margin-left: 300px; 
 }
 
 
@@ -327,7 +321,7 @@ nav{
     font-size: 18px;
     position: relative;
  }
-/* A line under the headings styling*/
+
  nav ul li a::after{
     content: '';
     width: 0;
@@ -626,20 +620,13 @@ form .btn2{
   cursor: pointer;
 }
 
-
-
-
-
-/* Add this CSS to your existing stylesheet */
-
-/* Header styles */
 header {
     position: relative;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #EC7C26; /* Adjust background color as needed */
+    background: #EC7C26; 
 }
 
 .logo-link {
@@ -647,7 +634,7 @@ header {
 }
 
 .logo-link img {
-    width: 100px; /* Adjust logo size as needed */
+    width: 100px; 
 }
 
 .navigation {
@@ -656,16 +643,15 @@ header {
 }
 
 .navigation a {
-    color: #fff; /* Adjust link color as needed */
+    color: #fff; 
     text-decoration: none;
     margin: 0 15px;
 }
 
-/* Navigation icon styles */
 .navigation-icon,
 .close-btn {
     font-size: 24px;
-    color: #fff; /* Adjust icon color as needed */
+    color: #fff; 
     cursor: pointer;
     display: none;
 }
@@ -673,16 +659,16 @@ header {
 #menu-toggle {
     display: none;
 }
-/* Media query for responsive styles */
+
 @media (max-width: 768px) {
     .navigation {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 70px; /* Adjust top position as needed */
+        top: 70px; 
         left: 0;
         width: 100%;
-        background: #3B3C36; /* Adjust background color as needed */
+        background: #3B3C36; 
         text-align: center;
     }
 
